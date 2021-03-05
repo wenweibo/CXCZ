@@ -50,6 +50,15 @@
             }
             
         }
+        ,{
+            "path" : "pages/set/set",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",

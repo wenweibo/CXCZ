@@ -15,21 +15,21 @@
 			return {
 				iconListArr : [],
 				functionTitle:[
-					{"id":"PTCL","name":"普通车辆"},
-					{"id":"PTJL","name":"普通记录"},
-					{"id":"TSCL","name":"特殊车辆"},
-					{"id":"TSJL","name":"特殊记录"},
-					{"id":"CXCL","name":"超限处理"},
-					{"id":"CXLB","name":"超限列表"},
-					{"id":"LZQBFB","name":"情报发布"},
-					{"id":"GSQBFB","name":"情报发布"},
-					{"id":"TJBB","name":"统计报表"},
-					{"id":"CXBB","name":"统计报表"},
-					{"id":"SZ","name":"设置"},
-					{"id":"GSDB","name":"代办"},
-					{"id":"GSYSB","name":"已上报"},
-					{"id":"LZDB","name":"待办"},
-					{"id":"LZYCL","name":"已处理"}]
+					{"id":"PTCL","name":"普通车辆","page":"../set/set"},
+					{"id":"PTJL","name":"普通记录","page":""},
+					{"id":"TSCL","name":"特殊车辆","page":""},
+					{"id":"TSJL","name":"特殊记录","page":""},
+					{"id":"CXCL","name":"超限处理","page":""},
+					{"id":"CXLB","name":"超限列表","page":""},
+					{"id":"LZQBFB","name":"情报发布","page":""},
+					{"id":"GSQBFB","name":"情报发布","page":""},
+					{"id":"TJBB","name":"统计报表","page":""},
+					{"id":"CXBB","name":"统计报表","page":""},
+					{"id":"SZ","name":"设置","page":""},
+					{"id":"GSDB","name":"代办","page":""},
+					{"id":"GSYSB","name":"已上报","page":""},
+					{"id":"LZDB","name":"待办","page":""},
+					{"id":"LZYCL","name":"已处理","page":""}]
 			}
 		},
 		onLoad() {
@@ -41,15 +41,17 @@
 			for (var i = 0; i < iconList.length; i++) {
 				var id = iconList[i]
 				var name = "未知";
+				var page = "";
 				console.log("length----------"+this.functionTitle.length);
 				for (var y = 0; y < this.functionTitle.length; y++) {
 					var obj = this.functionTitle[y];
 					if(obj.id == id){
 						name = obj.name;
+						page = obj.page;
 					}
 				}
 				var icon = "../../static/funicons/"+id+".png";
-				var iconObj = {"title":id,"icon":icon,"name":name};
+				var iconObj = {"title":id,"icon":icon,"name":name,"page":page};
 				console.log(iconObj);
 				this.iconListArr.push(iconObj);
 			}

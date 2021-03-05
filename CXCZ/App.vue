@@ -23,4 +23,8 @@
 		height: 100%;
 		background-color: #f7f7f7;
 	}
+	
+	.btn{
+		
+	}
 </style>

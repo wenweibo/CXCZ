@@ -58,12 +58,21 @@
 							if(res.data.head.ret.retCode == "000000"){
 								// 登录成功
 								var userinfo = res.data.body;
-								// 将用户信息存储到缓存中
-								uni.setStorageSync("userToken",userToken)
-								// 跳转到班次选择页面
-								uni.redirectTo({
-									url:"../shiftSelect/shiftSelect"
-								})
+								uni.setStorageSync("userinfo",userinfo);
+								// 将用户信息存储到缓存中u
+								uni.setStorageSync("userToken",userToken);
+								if(userinfo.showSchedule){
+									// 如果需要显示班次，则跳转到班次选择页面
+									uni.redirectTo({
+										url:"../shiftSelect/shiftSelect"
+									})
+								}else{
+									// 否则，跳转到主页
+									uni.redirectTo({
+										url:"../main/main"
+									})
+								}
+								
 							}else{
 								uni.showToast({
 									duration:2000,

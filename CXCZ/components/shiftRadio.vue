@@ -4,7 +4,7 @@
 			<image class="img" src="../static/icons/shift_icon.png"></image>
 			<text class="title">{{scheduleObj.scheduleName}}</text>
 			<text class="remind">{{scheduleObj.startTime}} —— {{scheduleObj.endTime}}</text>
-			<radio :value="scheduleObj.scheduleId" />
+			<radio class="s-checkbox" :value="scheduleObj.scheduleId" />
 		</view>
 		<dividerLine></dividerLine>
 	</view>
@@ -47,4 +47,5 @@
 		width: $uni-img-size-base;
 		height: $uni-img-size-base;
 	}
+	
 </style>

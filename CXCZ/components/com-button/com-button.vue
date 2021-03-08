@@ -16,6 +16,7 @@
 		:open-type="openType"
 		@getuserinfo="bindgetUserInfo"
 		@tap="btnClick"
+		:form-type="formType"
 	>
 		<slot>按钮</slot>
 	</button>
@@ -84,6 +85,10 @@ export default {
 			default: false			
 		},
 		openType: {
+			type: String,
+			default: ''
+		},
+		formType: {
 			type: String,
 			default: ''
 		}

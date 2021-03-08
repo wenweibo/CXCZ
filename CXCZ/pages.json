@@ -52,10 +52,31 @@
         }
         ,{
             "path" : "pages/set/set",
-            "style" :                                                                                    
+            "style" :
             {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
+                "navigationBarTitleText": "设置",
+            	"navigationBarTextStyle":"white",
+                "enablePullDownRefresh": false,
+            	"app-plus":{
+            		"titleNView":{
+            			"backgroundImage":"linear-gradient(to right, #00dcff, #00aeff)"
+            		}
+            	}
+            }
+            
+        }
+        ,{
+            "path" : "pages/set/reset_password/reset_password",
+            "style" :
+            {
+                "navigationBarTitleText": "修改密码",
+            	"navigationBarTextStyle":"white",
+                "enablePullDownRefresh": false,
+            	"app-plus":{
+            		"titleNView":{
+            			"backgroundImage":"linear-gradient(to right, #00dcff, #00aeff)"
+            		}
+            	}
             }
             
         }

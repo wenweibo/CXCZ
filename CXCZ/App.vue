@@ -12,7 +12,7 @@
 	}
 </script>
 
-<style>
+<style lang="scss">
 	/*每个页面公共css */
 	html,body{
 		height: 100%;
@@ -24,7 +24,5 @@
 		background-color: #f7f7f7;
 	}
 	
-	.btn{
-		
-	}
+	
 </style>

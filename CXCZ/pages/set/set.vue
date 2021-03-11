@@ -180,7 +180,7 @@
 	.top-tag {
 		height: 350rpx;
 		background-color: #FFFFFF;
-		border-radius: $uni-spacing-col-lg;
+		border-radius: $uni-border-radius-lg;
 		position: relative;
 		top: -380rpx;
 		z-index: 2;
@@ -283,7 +283,7 @@
 
 	.list-wapper {
 		background-color: #FFFFFF;
-		border-radius: $uni-spacing-col-lg;
+		border-radius: $uni-border-radius-lg;
 	}
 
 

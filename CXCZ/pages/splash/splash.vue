@@ -20,7 +20,7 @@
 			if(userToken != null && userToken !="" && userToken != undefined){
 				// 如果有用户信息
 				uni.request({
-					url:this.serverUrl + "app/login.action",
+					url:getApp().globalData.serverUrl + "app/login.action",
 					method:"POST",
 					data:userToken,
 					success: res => {

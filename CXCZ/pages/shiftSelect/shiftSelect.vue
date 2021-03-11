@@ -50,7 +50,7 @@
 						title: "正在提交..."
 					})
 					uni.request({
-						url: this.serverUrl + "cxcz/scheduleSelect/save.action",
+						url: getApp().globalData.serverUrl + "cxcz/scheduleSelect/save.action",
 						method: "POST",
 						data: {
 							"head": {},
@@ -101,7 +101,7 @@
 				})
 				// 加载班次
 				uni.request({
-					url: this.serverUrl + "cxcz/schedule/list.action",
+					url: getApp().globalData.serverUrl + "cxcz/schedule/list.action",
 					method: "POST",
 					data: {},
 					success: res => {

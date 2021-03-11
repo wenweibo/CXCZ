@@ -1,5 +1,8 @@
 <script>
 	export default {
+		globalData:{
+			serverUrl:'http://rap2api.taobao.org/app/mock/258444/cxcz/'
+		},
 		onLaunch: function() {
 			console.log('App Launch')
 		},

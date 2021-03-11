@@ -3,7 +3,7 @@ import App from './App'
 
 Vue.config.productionTip = false
 // 服务器地址
-Vue.prototype.serverUrl = "http://rap2api.taobao.org/app/mock/258444/cxcz/";
+// Vue.prototype.serverUrl = "http://rap2api.taobao.org/app/mock/258444/cxcz/";
 App.mpType = 'app';
 // 功能标签
 // 普通车辆

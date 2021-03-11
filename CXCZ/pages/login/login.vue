@@ -48,11 +48,10 @@
 						"password":password
 					};
 				uni.request({
-					url:this.serverUrl + "app/login.action",
+					url:getApp().globalData.serverUrl + "app/login.action",
 					method:"POST",
 					data:userToken,
 					success: res => {
-						debugger;
 						console.log(res);
 						if(res.statusCode == 200){
 							if(res.data.head.ret.retCode == "000000"){

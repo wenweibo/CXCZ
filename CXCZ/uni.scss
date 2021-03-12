@@ -35,6 +35,8 @@ $uni-bg-color-mask:rgba(0, 0, 0, 0.4);//遮罩颜色
 $start_blue:#00dcff;
 $center_blue:#00b5fe;
 $end_blue:#00aeff;
+$yellow:#ffcc00;
+$orange:#ff7900;
 
 /* 边框颜色 */
 $uni-border-color:#e4e4e4;
@@ -46,8 +48,14 @@ $uni-font-size-sm:24rpx;
 $uni-font-size-base:28rpx;
 $uni-font-size-lg:32rpx;
 $uni-font-size-max:42rpx;
+/* 控件高度 */
+$uni-block-height:80rpx;
+/* 控件高度 */
+$uni-block-width:80rpx;
+$uni-block-width-mid:110rpx;
 
 /* 图片尺寸 */
+$uni-img-size-min:15rpx;
 $uni-img-size-sm:40rpx;
 $uni-img-size-base:52rpx;
 $uni-img-size-big:60rpx;

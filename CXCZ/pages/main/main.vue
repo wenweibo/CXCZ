@@ -26,12 +26,12 @@
 				functionTitle: [{
 						"id": "PTCL",
 						"name": "普通车辆",
-						"page": "../set/set"
+						"page": "../vechicleRegister/vechicleRegister"
 					},
 					{
 						"id": "PTJL",
 						"name": "普通记录",
-						"page": "../set/set"
+						"page": "../registerDetail/registerDetail"
 					},
 					{
 						"id": "TSCL",

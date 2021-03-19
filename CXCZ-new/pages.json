@@ -1,0 +1,183 @@
+{
+	"pages": [
+		// pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/splash/splash",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+		}, {
+			"path": "pages/main/main",
+			"style": {
+				"navigationBarTitleText": "主页",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"backgroundImage": "linear-gradient(to right, #00dcff, #00aeff)"
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/shiftSelect/shiftSelect",
+			"style": {
+				"navigationBarTitleText": "班次选择",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"backgroundImage": "linear-gradient(to right, #00dcff, #00aeff)"
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/set/set",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"backgroundImage": "linear-gradient(to right, #00dcff, #00aeff)"
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/set/reset_password/reset_password",
+			"style": {
+				"navigationBarTitleText": "修改密码",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"backgroundImage": "linear-gradient(to right, #00dcff, #00aeff)"
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/swiper-list/swiper-list",
+			"style": {
+				"navigationBarTitleText": "超限列表",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"backgroundImage": "linear-gradient(to right, #00dcff, #00aeff)"
+					}
+				}
+			}
+
+		}
+
+		, {
+			"path": "pages/vechicleRegister/vechicleRegister",
+			"style": {
+				"navigationBarTitleText": "超限上报",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"backgroundImage": "linear-gradient(to right, #00dcff, #00aeff)"
+					}
+				}
+			}
+
+		},
+		{
+			"path": "pages/registerDetail/registerDetail",
+			"style": {
+				"navigationBarTitleText": "车辆详情",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"backgroundImage": "linear-gradient(to right, #00dcff, #00aeff)"
+					}
+				}
+			}
+		},
+		{
+			"path":"pages/registerDetail/videoPreview",
+			"style": {
+				"navigationBarTitleText": "超限上报",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#000000"
+			}
+		}
+
+	    ,{
+            "path" : "pages/statistic/statistic",
+            "style": {
+            	"navigationBarTitleText": "统计报表",
+            	"navigationBarTextStyle": "white",
+            	"enablePullDownRefresh": false,
+            	"app-plus": {
+            		"titleNView": {
+            			"backgroundImage": "linear-gradient(to right, #00dcff, #00aeff)"
+            		}
+            	}
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"pageOrientation": "portrait",
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "Hello uniapp",
+		"navigationBarBackgroundColor": "#007AFF",
+		"backgroundColor": "#F8F8F8",
+		"backgroundColorTop": "#F4F5F6",
+		"backgroundColorBottom": "#F4F5F6",
+		"mp-360": {
+			"navigationStyle": "custom"
+		}
+	}
+	// ,
+	// "tabBar": {
+	// 	"color": "#7A7E83",
+	// 	"selectedColor": "#007AFF",
+	// 	"borderStyle": "black",
+	// 	"backgroundColor": "#F8F8F8",
+	// 	"list": [{
+	// 			"pagePath": "pages/tabBar/component/component",
+	// 			"iconPath": "static/component.png",
+	// 			"selectedIconPath": "static/componentHL.png",
+	// 			"text": "内置组件"
+	// 		},
+	// 		{
+	// 			"pagePath": "pages/tabBar/API/API",
+	// 			"iconPath": "static/api.png",
+	// 			"selectedIconPath": "static/apiHL.png",
+	// 			"text": "接口"
+	// 		}, {
+	// 			"pagePath": "pages/tabBar/extUI/extUI",
+	// 			"iconPath": "static/extui.png",
+	// 			"selectedIconPath": "static/extuiHL.png",
+	// 			"text": "扩展组件"
+	// 		}, {
+	// 			"pagePath": "pages/tabBar/template/template",
+	// 			"iconPath": "static/template.png",
+	// 			"selectedIconPath": "static/templateHL.png",
+	// 			"text": "模板"
+	// 		}
+	// 	]
+	// }
+}
